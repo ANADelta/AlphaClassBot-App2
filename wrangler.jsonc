@@ -1,0 +1,22 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "alphaclassbot-app2",
+  "main": "src/index.tsx",
+  "compatibility_date": "2024-01-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "pages_build_output_dir": "./dist",
+
+  // D1 Database for academic scheduling data
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "alphaclassbot-production",
+      "database_id": "your-database-id-will-be-set-when-created"
+    }
+  ],
+
+  // AI binding for chat-based scheduling
+  "ai": {
+    "binding": "AI"
+  }
+}
