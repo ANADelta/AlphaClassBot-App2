@@ -69,7 +69,7 @@ INSERT OR IGNORE INTO chat_messages (conversation_id, sender_type, message, mess
   (1, 'user', 'Hi, can you help me understand my schedule for this week?', 'text'),
   (1, 'assistant', 'Of course! Based on your enrollments, you have CS101 on Monday, Wednesday, and Friday at 9:00 AM, and CS301 on Tuesday and Thursday at 10:00 AM. Would you like me to set up reminders for these classes?', 'schedule_response'),
   (1, 'user', 'Yes, please set up 15-minute reminders for all my classes.', 'schedule_request'),
-  (1, 'assistant', 'Perfect! I\'ve set up 15-minute reminders for all your classes. You\'ll receive notifications before each CS101 and CS301 session. Is there anything else you\'d like to know about your schedule?', 'reminder_setup'),
+  (1, 'assistant', 'Perfect! I''ve set up 15-minute reminders for all your classes. You''ll receive notifications before each CS101 and CS301 session. Is there anything else you''d like to know about your schedule?', 'reminder_setup'),
   (2, 'user', 'I need help setting up reminders for assignment deadlines.', 'text'),
   (2, 'assistant', 'I can help you with that! I see you have Assignment 1 due for CS101 on September 20th at 11:59 PM. Would you like me to set up multiple reminders - perhaps 1 day before, 1 hour before, and 1 week before the deadline?', 'schedule_response'),
   (3, 'user', 'Can you suggest the best times for me to study based on my class schedule?', 'text'),
